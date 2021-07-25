@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        margin: 0px;
+        background-color: #21C08B;
+        font-family: 'Mulish', sans-serif;
+    }
+    .header{
+        background-color: #21C08B;
+        width: 100%;
+        height: 80px;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+    .header__img{
+        width: 80px;
+        margin-left: 12px;
+    }
+    .header__menu
+    {
+        margin-right: 30px;
+    }
+    .header__menu--profile
+    {
+        margin-right: 8px;
+        display: flex;
+        align-items: center;
+        cursor:pointer
+    }
+    .header__menu--profile img
+    {
+        margin-right: 8px;
+        width: 40px;
+        display: flex;
+    }
+    .header__menu--profile p
+    {
+        margin: 0px;
+        color: white;
+    }
+    .header__menu ul
+    {
+        display: none;
+        list-style: none;
+        padding: 0px;
+        position: absolute;
+        width: 100px;
+        text-align: right;
+        margin: 0px 0px 0px -14px;
+    }
+    .header__menu li{
+        margin: 10px 0px;
+    }
+    .header__menu li a:hover{
+        text-decoration: underline;
+    }
+    .header__menu li a{
+        text-decoration: none;
+        text-decoration: white;
+    }
+    .header__menu:hover ul, ul:hover
+    {
+        display: block;
+    }
+</style>
+<body>
+    <header class="header">
+        <img class="header__img" src="Bozas'z.png" alt="">
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="user.png" alt="">
+                <p>Perfil</p>
+            </div>
+            <ul> 
+                <li><a href="/">Cuenta</a></li>
+                <li><a href="/">Cerrar Sesión</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
