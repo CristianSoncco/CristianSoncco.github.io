@@ -1,6 +1,10 @@
 head_title: "Cristian Antony Soncco Boza - Desarrollador Full Stack"
 head_description: "Desarrollador Full Stack con +14 años de experiencia. Especialista en Angular, .NET, Oracle, DevOps, TensorFlow. Modernización de aplicaciones y sistemas escalables."
 
+# Logo del header
+logo_text1: "Cristian"
+logo_text2: "Soncco"
+
 about_title: "Sobre mí"
 about_content: |
   <p>Desarrollador de software con <strong>+14 años de trayectoria</strong>, especializado en <strong>C#/.NET</strong>, <strong>Java Spring Boot</strong>, <strong>Angular</strong> y <strong>Oracle</strong>.</p>
