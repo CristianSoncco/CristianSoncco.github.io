@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Portafolio y Blog de Cristian Soncco</title>
+    <link>http://localhost:1313/tags/docker/</link>
+    <description>Recent content in Docker on Portafolio y Blog de Cristian Soncco</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sun, 08 Jun 2025 22:32:38 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sistema de Gestión Empresarial Full-Stack</title>
+      <link>http://localhost:1313/portfolio/proyecto1/</link>
+      <pubDate>Sun, 08 Jun 2025 22:32:38 +0200</pubDate>
+      <guid>http://localhost:1313/portfolio/proyecto1/</guid>
+      <description>&lt;h2 id=&#34;descripción-del-proyecto&#34;&gt;Descripción del Proyecto&lt;/h2&gt;&#xA;&lt;p&gt;Sistema integral de gestión empresarial desarrollado con arquitectura moderna y escalable, implementando las mejores prácticas de desarrollo full-stack. La aplicación permite la administración completa de recursos humanos, inventarios, facturación y reportes analíticos en tiempo real.&lt;/p&gt;&#xA;&lt;h3 id=&#34;arquitectura-técnica&#34;&gt;Arquitectura Técnica&lt;/h3&gt;&#xA;&lt;p&gt;El proyecto está estructurado siguiendo principios de Clean Architecture y Domain-Driven Design, garantizando la separación de responsabilidades y la mantenibilidad del código a largo plazo.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Frontend (Angular 16):&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Implementación de arquitectura modular con lazy loading para optimizar el rendimiento&lt;/li&gt;&#xA;&lt;li&gt;Uso de Angular Material para una interfaz de usuario consistente y accesible&lt;/li&gt;&#xA;&lt;li&gt;Gestión de estado reactivo con RxJS y servicios singleton&lt;/li&gt;&#xA;&lt;li&gt;Implementación de guards y interceptors para seguridad y manejo de errores&lt;/li&gt;&#xA;&lt;li&gt;Testing unitario y de integración con Jasmine y Karma&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Backend (NestJS):&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Best Practices on Portafolio y Blog de Cristian Soncco</title>
+    <link>https://CristianSoncco.github.io/tags/best-practices/</link>
+    <description>Recent content in Best Practices on Portafolio y Blog de Cristian Soncco</description>
+    <generator>Hugo</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sun, 08 Jun 2025 22:32:29 +0200</lastBuildDate>
+    <atom:link href="https://CristianSoncco.github.io/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arquitectura Hexagonal en NestJS: Construyendo APIs Escalables y Mantenibles</title>
+      <link>https://CristianSoncco.github.io/posts/mi-primer-post/</link>
+      <pubDate>Sun, 08 Jun 2025 22:32:29 +0200</pubDate>
+      <guid>https://CristianSoncco.github.io/posts/mi-primer-post/</guid>
+      <description>&lt;p&gt;La arquitectura hexagonal, también conocida como Ports and Adapters, representa uno de los paradigmas más efectivos para construir aplicaciones backend robustas y mantenibles. En el contexto de NestJS, esta aproximación arquitectónica nos permite crear APIs que no solo son escalables, sino que también mantienen una separación clara de responsabilidades y facilitan tanto el testing como la evolución del código a largo plazo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;fundamentos-de-la-arquitectura-hexagonal&#34;&gt;Fundamentos de la Arquitectura Hexagonal&lt;/h2&gt;&#xA;&lt;p&gt;La arquitectura hexagonal propone una estructura donde el núcleo de la aplicación (dominio) permanece completamente aislado de las preocupaciones externas como bases de datos, frameworks web o servicios de terceros. Esta separación se logra mediante la definición de puertos (interfaces) que actúan como contratos, y adaptadores que implementan estos contratos para interactuar con el mundo exterior.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

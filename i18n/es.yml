@@ -1,0 +1,40 @@
+head_title: "Cristian Antony Soncco Boza - Desarrollador Full Stack"
+head_description: "Desarrollador Full Stack con +14 años de experiencia. Especialista en Angular, .NET, Oracle, DevOps, TensorFlow. Modernización de aplicaciones y sistemas escalables."
+
+about_title: "Sobre mí"
+about_content: |
+  <p>Desarrollador de software con <strong>+14 años de trayectoria</strong>, especializado en <strong>C#/.NET</strong>, <strong>Java Spring Boot</strong>, <strong>Angular</strong> y <strong>Oracle</strong>.</p>
+  <p>He entregado soluciones mission-critical en sectores como siderurgia, turismo, banca, seguros y salud, colaborando con clientes internacionales como Tenaris y Belmond.</p>
+about_button: "Más información"
+
+contact_title: "Contacto"
+contact_subtitle: "¿Hablamos?"
+
+showcase_title: "Cristian Antony Soncco Boza"
+showcase_subtitle: "Desarrollador Full Stack | Especialista en IA y Migración de Datos"
+showcase_description: "Angular | .NET | Oracle | DevOps | TensorFlow | Modernización de Aplicaciones | Sistemas Escalables. Con +14 años de trayectoria, especializado en C#/.NET, Java Spring Boot y arquitecturas de microservicios."
+showcase_button: "Ver Portfolio"
+
+skills_title: "Habilidades Técnicas"
+experience_title: "Experiencia Profesional"
+portfolio_title: "Portafolio"
+blog_title: "Blog"
+
+client_and_work_title: "Experiencia Destacada"
+client_and_work_subtitle: "Proyectos y Logros Profesionales"
+
+# Navegación
+nav_home: "Inicio"
+nav_about: "Sobre mí"
+nav_portfolio: "Portafolio"
+nav_blog: "Blog"
+nav_contact: "Contacto"
+
+# Botones y acciones
+read_more: "Leer más"
+view_project: "Ver proyecto"
+download_cv: "Descargar CV"
+get_in_touch: "Contactar"
+
+# Footer
+footer_copyright: "© 2025 Cristian Antony Soncco Boza. Todos los derechos reservados." 

@@ -1,0 +1,129 @@
+baseURL = "https://CristianSoncco.github.io/"
+languageCode = "es-es"
+title = "Portafolio y Blog de Cristian Soncco"
+theme = "adritian-free-hugo-theme"
+
+# Configuración de salidas
+[outputs]
+  page = ["HTML"]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+# Configuración de módulos para Bootstrap
+[module]
+[[module.mounts]]
+source = "node_modules/bootstrap/scss"
+target = "assets/scss/bootstrap"
+
+[[module.mounts]]
+source = "node_modules/bootstrap/dist/js"
+target = "assets/js/bootstrap"
+
+[[module.mounts]]
+source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+target = "assets/js/vendor/bootstrap.bundle.min.js"
+
+[params]
+title = 'Cristian Soncco - Arquitecto de Software Senior'
+description = 'Portafolio profesional de Cristian Soncco, especializado en Angular 16, NestJS y MariaDB. Desarrollo de soluciones empresariales escalables y mantenibles.'
+images = ['/img/og-img.png']
+
+# Secciones que se mostrarán en la página principal
+sections = [
+  "showcase",
+  "about",
+  "client-and-work",
+  "contact"
+]
+
+homepageExperienceCount = 6
+
+# Configuración de plugins CSS
+[[params.plugins.css]]
+URL = "css/adritian-icons.css"
+
+[[params.plugins.css]]
+URL = "css/animation.css"
+
+# Configuración de plugins SCSS
+[[params.plugins.scss]]
+URL = "scss/adritian.scss"
+
+[params.analytics]
+vercelPageInsights = false
+vercelAnalytics = false
+
+[params.analytics.googleAnalytics]
+code = ""
+enabled = false
+
+[params.analytics.googleTagManager]
+code = ""
+enabled = false
+
+# Configuración del tema de colores
+[params.colorTheme]
+[params.colorTheme.auto]
+disable = false
+
+[params.colorTheme.forced]
+theme = "light"
+
+[build]
+writeStats = true
+
+[build.buildStats]
+enabledFor = ["scss"]
+disableClasses = false
+disableIDs = false
+disableTags = false
+enable = true
+
+# Configuración de idiomas simplificada
+[languages]
+[languages.es]
+disabled = false
+languageCode = 'es-es'
+languageDirection = 'ltr'
+languageName = 'Español'
+title = 'Portafolio y Blog de Cristian Soncco'
+weight = 1
+
+# Menú principal simplificado
+[[languages.es.menus.header]]
+name = "Inicio"
+URL = "/"
+weight = 1
+
+[[languages.es.menus.header]]
+name = 'Portafolio'
+URL = '/portfolio'
+weight = 2
+
+[[languages.es.menus.header]]
+name = 'Blog'
+URL = '/posts'
+weight = 3
+
+[[languages.es.menus.header]]
+name = "Contacto"
+URL = "#contact"
+weight = 4
+
+# Menú del pie de página
+[[languages.es.menus.footer]]
+name = "Inicio"
+URL = "/"
+weight = 1
+
+[[languages.es.menus.footer]]
+name = "Portafolio"
+URL = "/portfolio"
+weight = 2
+
+[[languages.es.menus.footer]]
+name = "Blog"
+URL = "/posts"
+weight = 3

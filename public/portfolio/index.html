@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta name="theme-color" content="#478079" />
+
+
+<title>
+  
+    Portafolio de Proyectos |
+  
+  Cristian Antony Soncco Boza - Desarrollador Full Stack
+</title>
+
+<meta name="description" content="Desarrollador Full Stack con &#43;14 años de experiencia. Especialista en Angular, .NET, Oracle, DevOps, TensorFlow. Modernización de aplicaciones y sistemas escalables." />
+<meta name="generator-mode" content="production" />
+<style data-generator="critical-css">
+</style>
+  <link
+    rel="preload"
+    href="/css/bundle.min.44f40d7a6527924ff1cec0bda826352d9cd0e2504d503221fdd007b6fbef12a3.css"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+    
+      integrity="sha256-RPQNemUnkk/xzsC9qCY1LZzQ4lBNUDIh/dAHtvvvEqM=" crossorigin="anonymous"
+     />
+  <noscript>
+    <link
+      rel="stylesheet"
+      href="/css/bundle.min.44f40d7a6527924ff1cec0bda826352d9cd0e2504d503221fdd007b6fbef12a3.css"
+      
+        integrity="sha256-RPQNemUnkk/xzsC9qCY1LZzQ4lBNUDIh/dAHtvvvEqM=" crossorigin="anonymous"
+       />
+  </noscript>
+  
+    <link
+      rel="stylesheet"
+      href="https://CristianSoncco.github.io/scss/adritian.min.8d0474090a97390f85cae45a78b929982d7b188af862e2dc02a6cbb9072abec2.css"
+      integrity="sha256-jQR0CQqXOQ&#43;FyuRaeLkpmC17GIr4YuLcAqbLuQcqvsI="
+      crossorigin="anonymous" />
+
+
+
+  
+  <script>
+    
+    (function() {
+      const storedTheme = localStorage.getItem('theme');
+      if (storedTheme) {
+        if (storedTheme === 'auto') {
+          const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          document.documentElement.setAttribute('data-bs-theme', isDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme-auto', 'true');
+        } else {
+          document.documentElement.setAttribute('data-bs-theme', storedTheme);
+        }
+      } else {
+        const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.setAttribute('data-bs-theme', isDark ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme-auto', 'true');
+      }
+    })();
+  </script>
+  <script defer src="https://CristianSoncco.github.io/js/color-modes.min.d04fe7d715d288dddb435e74d7d08dbad2e4418c1f0cf7152374a12515466b9e.js"></script>
+  
+
+<link rel="preload" href="https://CristianSoncco.github.io/js/library/lozad.min.js" as="script">
+<script async src="https://CristianSoncco.github.io/js/library/lozad.min.js"></script>
+
+<meta property="og:url" content="https://CristianSoncco.github.io/portfolio/">
+  <meta property="og:site_name" content="Portafolio y Blog de Cristian Soncco">
+  <meta property="og:title" content="Portafolio de Proyectos">
+  <meta property="og:description" content="Mis Proyectos Aquí encontrarás una selección de proyectos que demuestran mi experiencia en el desarrollo de soluciones empresariales utilizando Angular 16, NestJS y MariaDB. Cada proyecto refleja mi compromiso con la calidad del código, la arquitectura limpia y las mejores prácticas de desarrollo.">
+  <meta property="og:locale" content="es_es">
+  <meta property="og:type" content="website">
+    <meta property="og:image" content="https://CristianSoncco.github.io/img/og-img.png">
+
+
+    
+
+</head>
+
+<body class=" page-portfolio">
+    
+
+
+<a href="#main-content" 
+    class="skip-to-content-link"
+    aria-label='Saltar al contenido principal'>
+  Saltar al contenido principal
+</a>
+
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar bd-navbar navbar-expand-lg navbar-light p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="/">
+            
+          <span>Adritian</span>
+          <span>Demo</span>
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent, #header"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label='Mostrar navegación'
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/"
+                >
+                  INICIO
+                </a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/portfolio"
+                >
+                  PORTAFOLIO
+                </a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/posts"
+                >
+                  BLOG
+                </a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#contact"
+                >
+                  CONTACTO
+                </a
+              >
+            </li>
+            <li class="dropdown theme-selector nav-item">
+              
+                
+              
+<div id='header-color-selector'
+  class='d-grid gap-2 col-6 mx-auto nav-link dropdown  '>
+  <button class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show bd-theme-selector"
+    id='bd-theme-header' type="button" aria-expanded="true" data-bs-toggle="dropdown"
+    data-bs-display="static" aria-label='Seleccionar esquema de color'>
+    <span class="theme-icon auto d-none" aria-hidden="true"></span>
+    <span class="current-theme">✨ Auto</span>
+    <span class="d-lg-none ms-2 visually-hidden bd-theme-text" id="bd-theme-text-header">Seleccionar esquema de color</span>
+  </button>
+  <ul id="theme-dropdown-header" class="dropdown-menu dropdown-menu-end " aria-labelledby="bd-theme-text-header" data-bs-popper="static">
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light"
+        aria-pressed="true">
+        ☀️ Claro
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+        aria-pressed="false">
+        🌑 Oscuro
+        <span class="theme-icon dark d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"
+        aria-pressed="false">
+        ✨ Auto
+        <span class="theme-icon light d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+  </ul>
+</div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</header> 
+  <section id="breadcrumb-bar" class="breadcrumb-bar container">
+    <ul class="breadcrumbs d-print-none">
+        <li class="breadcrum-item"><span><a href="/">Home</a></span></li><li class="breadcrum-item"><span><a href="/portfolio">Portafolio de Proyectos</a></span></li></ul>
+</section>
+
+
+    <main class="container">
+        
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Portafolio de Proyectos</h1>
+        
+        
+        <div class="content">
+          <h1 id="mis-proyectos">Mis Proyectos</h1>
+<p>Aquí encontrarás una selección de proyectos que demuestran mi experiencia en el desarrollo de soluciones empresariales utilizando Angular 16, NestJS y MariaDB. Cada proyecto refleja mi compromiso con la calidad del código, la arquitectura limpia y las mejores prácticas de desarrollo.</p>
+
+        </div>
+        
+        
+          <div class="section-posts mt-5">
+            <div class="posts-list">
+              
+              
+                <article class="post mb-4">
+                  <h3><a href="https://CristianSoncco.github.io/portfolio/proyecto1/">Sistema de Gestión Web - BAHÍA SOFTWARE</a></h3>
+                  
+                    <div><h1 id="sistema-de-gestión-web---bahía-software">Sistema de Gestión Web - BAHÍA SOFTWARE</h1>
+<h2 id="descripción-del-proyecto">Descripción del Proyecto</h2>
+<p>Desarrollo integral de sistemas web utilizando <strong>Angular 15</strong> para el frontend, <strong>Java Spring Boot</strong> para el backend y <strong>Oracle</strong> como base de datos. Proyecto enfocado en la modernización de procesos empresariales y optimización de performance.</p>
+<h2 id="tecnologías-utilizadas">Tecnologías Utilizadas</h2>
+<h3 id="frontend">Frontend</h3>
+<ul>
+<li><strong>Angular 15</strong> - Framework principal para la interfaz de usuario</li>
+<li><strong>TypeScript</strong> - Lenguaje de programación</li>
+<li><strong>Bootstrap</strong> - Framework CSS para diseño responsive</li>
+<li><strong>RxJS</strong> - Programación reactiva</li>
+</ul>
+<h3 id="backend">Backend</h3>
+<ul>
+<li><strong>Java Spring Boot</strong> - Framework principal del backend</li>
+<li><strong>Spring Security</strong> - Autenticación y autorización</li>
+<li><strong>Spring Data JPA</strong> - Acceso a datos</li>
+<li><strong>Maven</strong> - Gestión de dependencias</li>
+</ul>
+<h3 id="base-de-datos">Base de Datos</h3>
+<ul>
+<li><strong>Oracle Database</strong> - Sistema de gestión de base de datos</li>
+<li><strong>PL/SQL</strong> - Procedimientos almacenados</li>
+<li><strong>Oracle Forms &amp; Reports</strong> - Herramientas complementarias</li>
+</ul>
+<h3 id="herramientas-adicionales">Herramientas Adicionales</h3>
+<ul>
+<li><strong>Python</strong> - Desarrollo de ETL desde cero</li>
+<li><strong>Linux</strong> - Entorno de despliegue</li>
+<li><strong>Git</strong> - Control de versiones</li>
+</ul>
+<h2 id="características-principales">Características Principales</h2>
+<h3 id="optimización-de-performance">Optimización de Performance</h3>
+<ul>
+<li><strong>Mejora dramática en procesos Spring</strong>: Reducción de tiempo de ejecución de <strong>2 horas a 4 minutos</strong> en 4 procesos críticos ejecutados en Linux</li>
+<li><strong>Arquitectura optimizada</strong> para manejo de grandes volúmenes de datos</li>
+<li><strong>Implementación de caché</strong> para consultas frecuentes</li>
+</ul>
+<h3 id="desarrollo-etl-personalizado">Desarrollo ETL Personalizado</h3>
+<ul>
+<li><strong>Desarrollo desde cero</strong> de procesos ETL utilizando Python</li>
+<li><strong>Integración seamless</strong> con sistemas legacy</li>
+<li><strong>Automatización</strong> de procesos de migración de datos</li>
+<li><strong>Monitoreo y logging</strong> avanzado</li>
+</ul>
+<h3 id="mantenimiento-de-sistemas-legacy">Mantenimiento de Sistemas Legacy</h3>
+<ul>
+<li><strong>Soporte continuo</strong> de sistemas PHP sobre Linux</li>
+<li><strong>Modernización gradual</strong> de componentes críticos</li>
+<li><strong>Documentación técnica</strong> completa</li>
+</ul>
+<h2 id="arquitectura-del-sistema">Arquitectura del Sistema</h2>
+<h3 id="patrón-de-arquitectura">Patrón de Arquitectura</h3>
+<ul>
+<li><strong>Arquitectura en capas</strong> (Presentation, Business, Data Access)</li>
+<li><strong>Separación de responsabilidades</strong> clara</li>
+<li><strong>Principios SOLID</strong> aplicados consistentemente</li>
+</ul>
+<h3 id="integración-de-sistemas">Integración de Sistemas</h3>
+<ul>
+<li><strong>APIs RESTful</strong> para comunicación entre servicios</li>
+<li><strong>Manejo de transacciones</strong> distribuidas</li>
+<li><strong>Implementación de circuit breakers</strong> para resiliencia</li>
+</ul>
+<h2 id="resultados-y-métricas">Resultados y Métricas</h2>
+<h3 id="performance">Performance</h3>
+<ul>
+<li>✅ <strong>Reducción del 95%</strong> en tiempo de procesamiento (2h → 4min)</li>
+<li>✅ <strong>Mejora en throughput</strong> de datos procesados</li>
+<li>✅ <strong>Optimización de consultas</strong> Oracle complejas</li>
+</ul>
+<h3 id="calidad-del-código">Calidad del Código</h3>
+<ul>
+<li>✅ <strong>Cobertura de testing</strong> superior al 80%</li>
+<li>✅ <strong>Code review</strong> sistemático</li>
+<li>✅ <strong>Documentación técnica</strong> completa</li>
+</ul>
+<h3 id="impacto-en-el-negocio">Impacto en el Negocio</h3>
+<ul>
+<li>✅ <strong>Automatización</strong> de procesos manuales</li>
+<li>✅ <strong>Reducción de errores</strong> operacionales</li>
+<li>✅ <strong>Mejora en la experiencia</strong> del usuario final</li>
+</ul>
+<h2 id="desafíos-técnicos-superados">Desafíos Técnicos Superados</h2>
+<h3 id="optimización-de-consultas-oracle">Optimización de Consultas Oracle</h3>
+<p>Implementación de técnicas avanzadas de optimización para consultas complejas que involucraban múltiples tablas y grandes volúmenes de datos.</p></div>
+                  
+                  <div class="post-meta">
+                    <small class="text-muted">November 1, 2023</small>
+                  </div>
+                </article>
+              
+                <article class="post mb-4">
+                  <h3><a href="https://CristianSoncco.github.io/portfolio/proyecto-ntt-data/">Sistemas Web Empresariales - NTT DATA</a></h3>
+                  
+                    <div><h1 id="sistemas-web-empresariales---ntt-data-europe--latam">Sistemas Web Empresariales - NTT DATA Europe &amp; Latam</h1>
+<h2 id="descripción-del-proyecto">Descripción del Proyecto</h2>
+<p>Como <strong>Center Senior Developer</strong> en NTT DATA, lideré el desarrollo de dos sistemas web empresariales críticos utilizando <strong>Angular 12</strong> para el frontend, <strong>C# .NET CORE</strong> para el backend y <strong>PostgreSQL/Oracle</strong> como bases de datos.</p>
+<h2 id="tecnologías-utilizadas">Tecnologías Utilizadas</h2>
+<h3 id="frontend">Frontend</h3>
+<ul>
+<li><strong>Angular 12</strong> - Framework principal</li>
+<li><strong>TypeScript</strong> - Lenguaje de programación tipado</li>
+<li><strong>Angular Material</strong> - Biblioteca de componentes UI</li>
+<li><strong>RxJS</strong> - Programación reactiva</li>
+</ul>
+<h3 id="backend">Backend</h3>
+<ul>
+<li><strong>C# .NET CORE</strong> - Framework principal del backend</li>
+<li><strong>ASP.NET Core Web API</strong> - APIs RESTful</li>
+<li><strong>Entity Framework Core</strong> - ORM para acceso a datos</li>
+<li><strong>Microservicios</strong> - Arquitectura distribuida</li>
+</ul>
+<h3 id="base-de-datos">Base de Datos</h3>
+<ul>
+<li><strong>PostgreSQL</strong> - Base de datos principal</li>
+<li><strong>Oracle Database</strong> - Sistema legacy integrado</li>
+</ul>
+<h2 id="logros-principales">Logros Principales</h2>
+<h3 id="mejora-de-performance-del-40">Mejora de Performance del 40%</h3>
+<ul>
+<li><strong>Optimización de consultas</strong> complejas</li>
+<li><strong>Implementación de caché</strong> distribuido</li>
+<li><strong>Modularización</strong> con sistema legado</li>
+<li><strong>Arquitectura de microservicios</strong> escalable</li>
+</ul>
+<h2 id="resultados">Resultados</h2>
+<ul>
+<li>✅ <strong>40% mejora</strong> en tiempo de carga</li>
+<li>✅ <strong>99.9% disponibilidad</strong> del sistema</li>
+<li>✅ <strong>90% cobertura</strong> de unit tests</li>
+<li>✅ <strong>Modernización exitosa</strong> de sistemas críticos</li>
+</ul>
+<h2 id="características-técnicas">Características Técnicas</h2>
+<h3 id="desarrollo-net-framework-legacy">Desarrollo .NET Framework Legacy</h3>
+<ul>
+<li><strong>Mantenimiento y soporte</strong> de sistemas .NET Framework</li>
+<li><strong>Implementación de patrones Proxy y Fabric</strong> para abstracción</li>
+<li><strong>Refactoring gradual</strong> hacia .NET Core</li>
+<li><strong>Integración con servicios</strong> modernos</li>
+</ul>
+<h3 id="escalabilidad-y-performance">Escalabilidad y Performance</h3>
+<ul>
+<li><strong>Horizontal scaling</strong> de microservicios</li>
+<li><strong>Load balancing</strong> automático</li>
+<li><strong>Database sharding</strong> para grandes volúmenes</li>
+<li><strong>Monitoring y alertas</strong> en tiempo real</li>
+</ul>
+<h3 id="seguridad-implementada">Seguridad Implementada</h3>
+<ul>
+<li><strong>JWT Authentication</strong> con refresh tokens</li>
+<li><strong>OAuth 2.0</strong> para integración con terceros</li>
+<li><strong>Role-based access control</strong> (RBAC)</li>
+<li><strong>Data encryption</strong> en tránsito y reposo</li>
+<li><strong>API rate limiting</strong> y throttling</li>
+</ul>
+<h2 id="arquitectura-del-sistema">Arquitectura del Sistema</h2>
+<h3 id="patrón-de-microservicios">Patrón de Microservicios</h3>
+<pre tabindex="0"><code>┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Angular 12    │    │   API Gateway   │    │  User Service   │
+│   Frontend      │◄──►│   .NET Core     │◄──►│   .NET Core     │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+                                │                       │
+                                ▼                       ▼
+                       ┌─────────────────┐    ┌─────────────────┐
+                       │ Business Service│    │  Data Service   │
+                       │   .NET Core     │    │   PostgreSQL    │
+                       └─────────────────┘    └─────────────────┘
+</code></pre><h3 id="integración-con-legacy">Integración con Legacy</h3>
+<ul>
+<li><strong>Adapter pattern</strong> para sistemas Oracle legacy</li>
+<li><strong>Message transformation</strong> entre formatos</li>
+<li><strong>Gradual migration</strong> strategy</li>
+<li><strong>Backward compatibility</strong> garantizada</li>
+</ul>
+<h2 id="metodología-de-desarrollo">Metodología de Desarrollo</h2>
+<ul>
+<li><strong>Agile/Scrum</strong> con sprints de 2 semanas</li>
+<li><strong>Test-Driven Development</strong> (TDD)</li>
+<li><strong>Continuous Integration/Continuous Deployment</strong> (CI/CD)</li>
+<li><strong>Code reviews</strong> obligatorios</li>
+<li><strong>Pair programming</strong> para conocimiento compartido</li>
+</ul>
+<h2 id="herramientas-y-devops">Herramientas y DevOps</h2>
+<h3 id="control-de-versiones">Control de Versiones</h3>
+<ul>
+<li><strong>Git</strong> con GitFlow workflow</li>
+<li><strong>Azure DevOps</strong> para gestión de proyectos</li>
+<li><strong>Pull requests</strong> con revisión de código</li>
+</ul>
+<h3 id="cicd-pipeline">CI/CD Pipeline</h3>
+<ul>
+<li><strong>Azure Pipelines</strong> para automatización</li>
+<li><strong>Docker</strong> containerization</li>
+<li><strong>Kubernetes</strong> para orquestación</li>
+<li><strong>Automated testing</strong> en múltiples entornos</li>
+</ul>
+<h3 id="monitoring-y-logging">Monitoring y Logging</h3>
+<ul>
+<li><strong>Application Insights</strong> para telemetría</li>
+<li><strong>ELK Stack</strong> para logging centralizado</li>
+<li><strong>Prometheus</strong> y <strong>Grafana</strong> para métricas</li>
+<li><strong>Health checks</strong> automatizados</li>
+</ul>
+<hr>
+<p><em>Este proyecto demuestra mi experiencia en liderar equipos de desarrollo, implementar arquitecturas complejas y entregar soluciones empresariales de alta calidad que generan valor real para el negocio.</em></p></div>
+                  
+                  <div class="post-meta">
+                    <small class="text-muted">February 1, 2021</small>
+                  </div>
+                </article>
+              
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </main>
+
+    <div class="d-print-none">
+        <footer class="footer w-100 d-print-none">
+
+
+    
+
+    
+
+  <div class="container items">
+    <div class="container">
+      <div class="row w-100 align-items-center">
+        <div class="footer_left col-12 col-lg-4 mb-3 mb-lg-0 text-center text-lg-start">
+          <div class="footer__copy">
+            <span>© Adritian. Tema gratuito de Hugo por Adrián Moreno Peña.</span>
+          </div>
+        </div>
+        <div class="footer_links col-12 col-lg-6 mb-3 mb-lg-0 text-center text-lg-start">
+          <ul class="navbar-nav w-100 align-items-center justify-content-center justify-content-lg-start d-flex flex-wrap gap-2">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/"
+                >
+                  INICIO
+                </a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/portfolio"
+                >
+                  PORTAFOLIO
+                </a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/posts"
+                >
+                  BLOG
+                </a
+              >
+            </li>
+            
+          </ul>
+        </div>
+        <div class="footer_right col-12 col-lg-2 mb-3 mb-lg-0 text-center text-lg-end">
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2 d-grid col-12 ">
+            
+            
+            
+<div id='footer-color-selector'
+  class='d-grid gap-2 col-6 mx-auto nav-link dropdown dropup '>
+  <button class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show bd-theme-selector"
+    id='bd-theme-footer' type="button" aria-expanded="true" data-bs-toggle="dropdown"
+    data-bs-display="static" aria-label='Seleccionar esquema de color'>
+    <span class="theme-icon auto d-none" aria-hidden="true"></span>
+    <span class="current-theme">✨ Auto</span>
+    <span class="d-lg-none ms-2 visually-hidden bd-theme-text" id="bd-theme-text-footer">Seleccionar esquema de color</span>
+  </button>
+  <ul id="theme-dropdown-footer" class="dropdown-menu dropdown-menu-end " aria-labelledby="bd-theme-text-footer" data-bs-popper="static">
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light"
+        aria-pressed="true">
+        ☀️ Claro
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+        aria-pressed="false">
+        🌑 Oscuro
+        <span class="theme-icon dark d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"
+        aria-pressed="false">
+        ✨ Auto
+        <span class="theme-icon light d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+  </ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+    
+<script>
+  window.addEventListener("load", function() {
+    if (typeof lozad !== 'undefined') {
+      try {
+        var observer = window.lozad(".lozad", {
+          rootMargin: window.innerHeight / 2 + "px 0px",
+          threshold: 0.01,
+          loaded: function(el) {
+            el.setAttribute('data-loaded', 'true');
+          }
+        });
+        observer.observe();
+      } catch(e) {
+        console.error('Lozad initialization error:', e);
+      }
+    }
+  });
+</script>
+
+
+<script defer src='https://CristianSoncco.github.io/js/rad-animations.js'></script>
+<script defer src='https://CristianSoncco.github.io/js/library/smooth-scroll.polyfills.min.js'></script>
+<script defer src='https://CristianSoncco.github.io/js/sticky-header.js'></script>
+<script defer src='https://CristianSoncco.github.io/js/smooth-scroll-init.js'></script>
+<script defer src="/assets/js/vendor/bootstrap.bundle.min.cb789b7cec81aa580177e1b3c0561011539974d243d3a1de0d78a1a278015cab.js"></script>
+
+
+
+
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+
+
+    
+    
+</body>
+</html>

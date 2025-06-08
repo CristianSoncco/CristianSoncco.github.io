@@ -1,0 +1,63 @@
+about:
+  image:
+    src: "images/profile.svg"
+    width: 400
+    height: 400
+    scale: 0.8
+  text_align: "center"
+  button:
+    URL: "#contact"
+    icon: "icon-arrow-right"
+
+contact:
+  title: "Contacto"
+  subtitle: "¿Hablamos?"
+  
+showcase:
+  enable: true
+  title: "Cristian Antony Soncco Boza"
+  subtitle: "Desarrollador Full Stack | Especialista en IA y Migración de Datos"
+  description: "Angular | .NET | Oracle | DevOps | TensorFlow | Modernización de Aplicaciones | Sistemas Escalables. Con +14 años de trayectoria, especializado en C#/.NET, Java Spring Boot y arquitecturas de microservicios."
+  image:
+    src: "images/profile.svg"
+    width: 400
+    height: 400
+    scale: 0.8
+  button:
+    URL: "/portfolio"
+    icon: "fas fa-briefcase"
+    text: "Ver Portfolio"
+  socialLinks:
+    - icon: "github"
+      URL: "https://github.com/CristianSoncco"
+    - icon: "linkedin"
+      URL: "https://linkedin.com/in/cristian-soncco"
+    - icon: "envelope"
+      URL: "mailto:cristian_soncco@msn.com"
+  
+skills:
+  enable: true
+  title: "Habilidades Técnicas"
+  items:
+    - name: "C# .NET"
+      level: "95%"
+      years: "5 años"
+    - name: "Java Spring Boot"
+      level: "90%"
+      years: "4 años"
+    - name: "Angular"
+      level: "90%"
+      years: "4 años"
+    - name: "Oracle/PostgreSQL"
+      level: "85%"
+      years: "8 años"
+    - name: "Azure/AWS"
+      level: "80%"
+      years: "3 años"
+    - name: "Docker/DevOps"
+      level: "75%"
+      years: "2 años"
+  
+experience:
+  enable: true
+  title: "Experiencia Profesional" 
